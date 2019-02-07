@@ -1,0 +1,19 @@
+{
+    "name": "user/test.loc",
+    "authors": [
+        {
+            "name": "AlexKul",
+            "email": "AlexKul1985sanshoy@mail.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\":"app/controllers",
+            "core\\":"vendor/core"
+            
+        }
+    }
+}
